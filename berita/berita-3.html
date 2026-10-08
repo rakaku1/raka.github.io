@@ -4,16 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width= device-width, initial-scale=1.0">
     <title>Cara masak tempe</title>
-        
+        <style>
+            body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+            padding: 20px;
+            color: rgb(0, 0, 0);
+            margin: 10px;
+            border: solid 1px orange;
+            background-image: url("https://www.google.com/tempe.png");
+            background-attachment: fixed;
+            background-color: lightyellow;
+            font-weight: light;
+            
+        }
+        .kepala{
+            
+             text-align: center;
+           
+            
+        }
+        h1 {
+            color: white;
+             background-color:rgb(255, 151, 138);
+        }
+        p {
+            color: gray;
+        }
+    
+       
+        .listtempe {
+             padding: 50px;
+             font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 10px;
+            width: 70%;
+            text-align:left;
+            border: 1px solid orange;
+            
+        }
+        </style>
     
 </head>
-<body>
-    <!--layout atau semantik-->
+    <body>
+  <!--layout atau semantik-->
     <header>
+        <div class="kepala">
             <h1>Selamat datang di website kami!</h1>
         <h2><u>Kami akan memberikan Langkah langkah cara membuat tempe goreng</u></h2>
         <img src="https://www.google.com/tempe.png" alt="tempeh goreng" height="100" width="100">
         <p>Sebelum kita mulai, mari kita siapkan <em>bahan bahan dan alat nya dulu.</em></p>
+        </div>
         <date time="2026-07-10">10 Juli 2026</date>
         <hr>
         <nav>
@@ -27,33 +67,34 @@
     </header>
     <hr> 
     <main>
-        <h3>1. Alat-alat</h3>
+        <h3 id="Alat">1. Alat-alat</h3>
         <p>Yaitu alat untuk menggoreng nya, Terdiri dari:
+            <div class="listtempe">
             <ul>
                 <li></li><b>Nampan</b> untuk nampung tempe</li>
                 <li><b>wajan</b> untuk menggoreng</li>
                 <li><b>Spatula</b> untuk membalikkan tempe</li>
                 <li><b>Pisau</b> untuk memotong tempe</li>
             </ul>
-        
+        </div>
         </p>
         <br>
-        <h3>2. Bahan-bahan</h3>
+        <h3 id="Bahan">2. Bahan-bahan</h3>
         <p>Yaitu bahan untuk membuat tempe, Terdiri dari:
-            
+            <div class="listtempe">
             <ul>
                 <li>Tempe.</li>
                 <li>Minyak goreng.</li>
                 <li>Garam.</li>
             </ul>
-            
+            </div>
         </p>
         <br>
-        <h3>3. Langkah-langkah.</h3>
+        <h3 id="Langkah">3. Langkah-langkah.</h3>
     </main>
     <article>
         <p>Langkah-langkah membuat tempe goreng ialah:</p>
-        
+        <div class="listtempe">
         <ol>
             <li>Siapkan semua bahan dan alat yang diperlukan.</li>
             <li>Cuci tempe hingga bersih, lalu potong-potong sesuai selera.</li>
@@ -61,6 +102,7 @@
             <li>Masukkan tempe ke dalam wajan dan goreng hingga kecoklatan.</li>
             <li>Angkat tempe dan tiriskan di atas nampan.</li>
             <li>Sajikan tempe goreng selagi hangat.</li>
+</div>
         </ol>
     </article>
     <hr>
@@ -68,4 +110,4 @@
         <p>Terima kasih telah berkunjung!</p>
     </footer>
     </body>
-</html
+</html>
