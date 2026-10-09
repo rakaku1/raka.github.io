@@ -9,16 +9,53 @@
             border-radius: 10px;
             color: darkgreen;
             overflow: hidden;
-            margin: 5px;
+         
             padding: 20px;
             text-align: center;
+            width: 70%;
         }
         body {
             background-color: lightgreen;
             font-family: Arial, Helvetica, Sans-serif;
             font-weight: lighter;
             letter-spacing: 15%;
-        
+        }
+        .box {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: green;
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .abox {
+            display: flex;
+            justify-content: space-around;
+            float: left;
+            gap: 10px;
+        }
+        .abox li a {
+            display: flex;
+            margin-right: 20px;
+            justify-content: center;
+            gap: 10px;
+            color: white;
+        }
+        .abox li a:hover {
+            background-color: lightgreen;
+            color: white;
+        }
+        a:visited {
+            color: darkgreen;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        a:hover {
+            background-color: lightgreen;
+            color: white;
+        }
     </style>
 </head>
 
@@ -38,10 +75,18 @@
         </tr>
         <tr>
             <td colspan="2" bgcolor="white">
-                <a href="./">Beranda</a> |
-                <a href="tentang-saya.html">Tentang Saya</a> |
-                <a href="kampus-ku.html">kampusku</a> |
-                <a href="tentang-saya.html">Portofolio</a>
+               
+                <nav>
+                <ul class="box">
+                 <div class="abox">
+               <li> <a href="./">Beranda</a> |</li>
+                <li><a href="tentang-saya.html">Tentang Saya</a> |</li>
+               <li> <a href="kampus-ku.html">kampusku</a> |</li>
+                <li><a href="tentang-saya.html">Portofolio</a></li>
+                        </div>
+                </ul>
+                </nav>
+              
             </td>
         </tr>
         <tr>
